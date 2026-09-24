@@ -1,0 +1,56 @@
+instalar la extension
+
+VsCode Action Button
+
+ctr shift p O F1
+
+Preferences: Open User Settings (JSON)
+
+en el archivo que si abre poner una , al final del ultimo texto
+
+y abajo antes de }   pegar
+
+
+ "actionButtons": {
+  "defaultColor": "white",
+  "loadNpmCommands": false,
+  "commands": [
+    {
+      "name": "🛠️ CMake ARZ",
+      "color": "yellow",
+      "command": "pythonw \"D:\\DATOS\\ARM\\STM32\\Librerias\\MIAS\\Librerias\\cmakelist_Python.py\""
+    }
+  ]
+}
+
+
+
+
+GUARDA CTR S
+
+
+MAS COMPLETO
+
+"commands": [
+      {
+        "name": "🛠️CMake ARZ",
+        "color": "yellow",
+        "command": "pythonw \"D:\\DATOS\\ARM\\STM32\\Librerias\\MIAS\\Librerias\\cmakelist_Python.py\""
+      },
+      {
+        "name": "💻PROG ARZ",
+        "color": "white",
+        "command": "python \"D:\\DATOS\\ARM\\STM32\\Librerias\\MIAS\\Librerias\\prog.py\""
+      },
+        {
+        "name": "⚡FUSE ARZ",
+        "color": "yellow",
+        "command": "pythonw \"D:\\DATOS\\ARM\\STM32\\Librerias\\MIAS\\Librerias\\fuse.py\""
+      },
+       {
+        "name": "💾FLASH ARZ",
+        "color": "white",
+        "command": "pythonw \"D:\\DATOS\\ARM\\STM32\\Librerias\\MIAS\\Librerias\\flash_tool.py\""
+      }
+    ]
+  }
